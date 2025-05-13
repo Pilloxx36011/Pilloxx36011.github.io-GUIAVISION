@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Visión - Bastón Inteligente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Imagen de encabezado -->
+    <div class="banner-imagen">
+        <img src="https://icqo.org/wp-content/uploads/2023/10/ceguera.jpg" alt="Bastón inteligente para personas invidentes">
+    </div>
+
+    <!-- Título principal -->
+    <header>
+        <h1 class="centrado">Guía Visión: Bastón Inteligente para Personas Invidentes</h1>
+        <p class="centrado">Impulsamos la autonomía y seguridad de personas con discapacidad visual mediante tecnología accesible. Descubre cómo un bastón inteligente puede transformar la movilidad y la calidad de vida.</p>
+    </header>
+
+    <!-- Introducción -->
+    <section id="introduccion">
+        <h2>¿Quiénes Somos?</h2>
+        <p>
+            Somos una comunidad comprometida con la inclusión de personas con discapacidad visual. Promovemos el desarrollo y uso de tecnologías como el bastón inteligente, que utiliza sensores y alertas para detectar obstáculos y orientar al usuario de forma segura en su entorno.
+            Nuestro objetivo es difundir soluciones prácticas que mejoren la calidad de vida y fomenten la autonomía.
+        </p>
+    </section>
+
+    <!-- Imagen y texto sobre el bastón inteligente -->
+    <section id="imagen">
+        <h2>¿Qué es un Bastón Inteligente?</h2>
+        <p>Es un dispositivo diseñado para asistir a personas invidentes o con baja visión. Integra sensores ultrasónicos, vibradores y, en algunos casos, conexión a GPS para alertar sobre obstáculos, rutas y elementos del entorno. Aumenta la seguridad del usuario al detectar obstáculos a nivel del suelo, cintura y cabeza, complementando el bastón blanco tradicional.</p>
+        <div class="centrar-imagen">
+            <img src="file:///D:/Downloads/baston_inteligente.jpg" alt="Tecnología de bastón inteligente" width="600">
+        </div>
+    </section>
+
+    <!-- Impacto social y beneficios -->
+    <section id="impacto-desperdicio">
+        <h2>Impacto y Beneficios</h2>
+        <div class="grafica">
+            <h3>¿Por qué es importante?</h3>
+            <p>El bastón inteligente mejora la autonomía, reduce accidentes y facilita la inclusión social. Según la OMS, más de 36 millones de personas viven con ceguera. Esta tecnología representa una herramienta clave para que puedan desplazarse de forma independiente y segura.</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/3750/3750311.png" alt="Persona usando bastón inteligente" width="180">
+        </div>
+    </section>
+
+    <!-- Componentes del prototipo -->
+    <section id="componentes">
+        <h2>Componentes del Bastón Inteligente</h2>
+        <p>El prototipo fue diseñado para ser funcional, económico y replicable. Estos son sus principales componentes:</p>
+        <ul>
+            <li><strong>Arduino Nano</strong>: Microcontrolador que procesa la información de los sensores. (Costo: 150 MXN)</li>
+            <li><strong>Sensor ultrasónico HC-SR04</strong>: Detecta obstáculos desde 2 cm hasta 400 cm. (Costo: 65 MXN)</li>
+            <li><strong>Buzzer pasivo</strong>: Emite señales sonoras para alertar al usuario. (Costo: 30 MXN)</li>
+            <li><strong>Alimentador HW-131</strong>: Regula la corriente eléctrica para el sistema. (Costo: 70 MXN)</li>
+            <li><strong>Componentes adicionales</strong>: Protoboard, cables, batería 9V, etc. (Costo estimado: 80 MXN)</li>
+        </ul>
+        <p><strong>Costo total estimado del prototipo:</strong> 395 MXN (aproximadamente 22 USD)</p>
+        <div class="centrar-imagen">
+            <img src="Imagen de WhatsApp 2025-05-08 a las 15.30.43_3f855db4.jpg" alt="Prototipo ensamblado sobre protoboard" width="600">
+        </div>
+        <div class="centrar-imagen">
+            <img src="Imagen de WhatsApp 2025-05-08 a las 15.30.44_3e1b531e.jpg" alt="Vista del sensor ultrasónico montado" width="600">
+        </div>
+        <div class="centrar-imagen">
+            <img src="Imagen de WhatsApp 2025-05-08 a las 15.30.44_d337a439.jpg" alt="Vista lateral del montaje completo" width="600">
+        </div>
+    </section>
+
+    <!-- Diagrama de funcionamiento -->
+    <section id="diagrama">
+        <h2>¿Cómo Funciona el Bastón?</h2>
+        <p>El bastón inteligente sigue una lógica de detección y alerta sencilla y eficaz:</p>
+        <ol>
+            <li>El <strong>sensor ultrasónico</strong> detecta un obstáculo frente al usuario.</li>
+            <li>La señal del sensor es enviada al <strong>Arduino Nano</strong>.</li>
+            <li>El microcontrolador analiza la distancia y activa el <strong>buzzer</strong> si hay riesgo de colisión.</li>
+            <li>El <strong>usuario recibe una alerta sonora</strong>, cuya velocidad de tono varía según la cercanía del obstáculo.</li>
+        </ol>
+        <div class="centrar-imagen">
+            <img src="file:///D:/Downloads/diagrama_funcionamiento.jpg" alt="Diagrama de funcionamiento del bastón inteligente" width="600">
+        </div>
+    </section>
+
+    <!-- Tipos de bastones y su significado -->
+    <section id="tipos-bastones">
+        <h2>Tipos de Bastones y su Significado</h2>
+        <p>Los bastones para personas con discapacidad visual varían en color según la condición del usuario. Esta señal visual permite a otras personas ofrecer asistencia adecuada:</p>
+
+        <h3>⚪ Bastón Blanco</h3>
+        <p>Utilizado por personas con ceguera total. Es un símbolo internacional que indica que la persona es completamente invidente.</p>
+
+        <h3>🟥 Bastón Blanco con Rojo</h3>
+        <p>Indica sordoceguera, es decir, pérdida visual y auditiva. Requiere formas de comunicación y apoyo más específicas.</p>
+
+        <h3>🟩 Bastón Verde</h3>
+        <p>Usado por personas con baja visión (ven parcialmente). Ayuda a alertar a los demás de su condición visual limitada.</p>
+
+        <h3>🟨 Bastón Amarillo</h3>
+        <p>Menos común, también se usa en algunos países para señalar baja visión. Su uso depende de la región.</p>
+
+        <div class="centrar-imagen">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.AIHEw8w23h9di6jn7tRMPwHaHW&pid=Api" alt="Colores de bastones guía y su significado" width="600">
+        </div>
+    </section>
+
+    <!-- formulario de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Queremos conocer tus ideas y opiniones. Completa nuestro formulario para colaborar en el desarrollo del bastón inteligente:</p>
+        <div class="contacto-columna">
+            <h3>Cuestionario de Sugerencias</h3>
+            <p>Tu retroalimentación es valiosa para mejorar nuestro proyecto:</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdccCJZ6zbMea0JEeSb8uxr2Ea2ftHxMknpHRbgdxVkGq0RRg/viewform?usp=header" target="_blank" class="boton-enlace">Acceder al Formulario</a>
+        </div>
+    </section>
+
+    <!-- Enlaces útiles -->
+    <section id="recursos">
+        <h2>Recursos y Fuentes</h2>
+        <ul>
+            <li><a href="https://www.who.int/es/news-room/fact-sheets/detail/blindness-and-visual-impairment" target="_blank">Organización Mundial de la Salud – Discapacidad Visual</a></li>
+            <li><a href="https://wewalk.io/es/" target="_blank">WeWALK – Bastón Inteligente</a></li>
+            <li><a href="https://ulacdigital.org/" target="_blank">Unión Latinoamericana de Ciegos (ULAC)</a></li>
+        </ul>
+    </section>
+</body>
+</html>
